@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Programowanie",
+      "label": "Krótki opis programowania",
+      "content": "Programowanie to proces tworzenia, testowania i utrzymywania kodu komputerowego. Obejmuje to rozwijanie różnych rodzajów oprogramowania, takich jak aplikacje webowe, mobilne, desktopowe, gry komputerowe i wiele innych."
+    },
+    {
+      "title": "Sztuczna inteligencja",
+      "label": "Krótki opis sztucznej inteligencji",
+      "content": "Sztuczna inteligencja (SI) to dziedzina informatyki, która zajmuje się tworzeniem systemów komputerowych zdolnych do wykonywania zadań, które wymagają typowych ludzkich umiejętności, takich jak rozumienie języka naturalnego, rozpoznawanie wzorców, planowanie, wnioskowanie, czy uczenie się."
+    },
+    {
+      "title": "Blockchain",
+      "label": "Krótki opis blockchain",
+      "content": "Blockchain to rozproszona, publiczna księga transakcji, która służy jako system rejestracji dla wszystkich transakcji wykonanych za pomocą kryptowalut, takich jak Bitcoin. Jest to technologia umożliwiająca bezpieczne i niezmienne przechowywanie danych."
+    },
+    {
+      "title": "Internet rzeczy (IoT)",
+      "label": "Krótki opis Internetu rzeczy",
+      "content": "Internet rzeczy (IoT) to sieć połączonych urządzeń, które komunikują się i wymieniają dane między sobą bez bezpośredniego udziału człowieka. Te urządzenia mogą obejmować urządzenia domowe, samochody, urządzenia medyczne, czujniki przemysłowe i wiele innych."
+    },
+    {
+      "title": "Data Science",
+      "label": "Krótki opis nauki danych",
+      "content": "Data Science to interdyscyplinarne pole badawcze, które wykorzystuje naukę o danych, analizę danych, algorytmy i technologie informatyczne do rozwiązywania problemów i odkrywania wiedzy z danych."
+    }
+  ]
