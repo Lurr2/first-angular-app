@@ -1,0 +1,27 @@
+[
+    {
+      "marka": "Toyota",
+      "kolor": "Czerwony",
+      "rokProdukcji": 2022
+    },
+    {
+      "marka": "Ford",
+      "kolor": "Niebieski",
+      "rokProdukcji": 2021
+    },
+    {
+      "marka": "BMW",
+      "kolor": "Czarny",
+      "rokProdukcji": 2023
+    },
+    {
+      "marka": "Volkswagen",
+      "kolor": "Biały",
+      "rokProdukcji": 2020
+    },
+    {
+      "marka": "Audi",
+      "kolor": "Srebrny",
+      "rokProdukcji": 2024
+    }
+  ]
