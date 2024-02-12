@@ -1,1 +1,3 @@
-<app-test-item paragraphText= "{{markiSamochodow[0]}}"></app-test-item>
+<div *ngFor="let marka of markiSamochodow">
+    <app-test-item paragraphText= "{{marka}}"></app-test-item>
+</div>

@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./test-item.component.scss']
 })
 export class TestItemComponent implements OnInit {
-  @Input() paragraphText: string;
+  @Input() paragraphText: string = '';
   
   public mainText = ""
   constructor() { }
