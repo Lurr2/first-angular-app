@@ -4,17 +4,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestItemComponent } from './components/common/test-item/test-item.component';
+import { CarsComponent } from './components/cars/cars.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CarsService } from './services/cars.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestItemComponent
+    TestItemComponent,
+    CarsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [CarsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

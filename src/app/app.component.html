@@ -1,3 +1,5 @@
-<div *ngFor="let marka of markiSamochodow">
+<ng-container *ngFor="let marka of markiSamochodow">
     <app-test-item paragraphText= "{{marka}}"></app-test-item>
-</div>
+</ng-container>
+
+<app-cars></app-cars>
