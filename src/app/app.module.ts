@@ -7,12 +7,14 @@ import { TestItemComponent } from './components/common/test-item/test-item.compo
 import { CarsComponent } from './components/cars/cars.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CarsService } from './services/cars.service';
+import { CardComponent } from './components/common/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestItemComponent,
-    CarsComponent
+    CarsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
