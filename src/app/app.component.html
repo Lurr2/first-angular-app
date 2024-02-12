@@ -2,4 +2,6 @@
     <app-test-item paragraphText= "{{marka}}"></app-test-item>
 </ng-container>
 
-<app-cars></app-cars>
+<ng-container *ngFor="let kary of ">
+<app-cars kars= "{{kary}}"></app-cars>
+</ng-container>

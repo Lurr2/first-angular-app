@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CarsService } from './services/cars.service';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
+  cars: any[] = [];
   public someData = "ze zmiennej";
   public markiSamochodow = [
     "Toyota",
@@ -15,6 +16,13 @@ export class AppComponent {
     "Volkswagen",
     "Audi"
 ];
+constructor(private carsService: CarsService) {}
+
+ngOnInit() {
+  this.carsService.getData().subscribe(data => {
+    this.cars = data;
+  });
+}
 
   title = 'first-angular-app';
 }

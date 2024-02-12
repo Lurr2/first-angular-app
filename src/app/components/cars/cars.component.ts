@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CarsService } from 'src/app/services/cars.service';
 
 @Component({
@@ -7,6 +7,7 @@ import { CarsService } from 'src/app/services/cars.service';
   styleUrls: ['./cars.component.scss']
 })
 export class CarsComponent implements OnInit {
+  @Input() kars: string ='';
 
   constructor(private carsService: CarsService) { }
 
