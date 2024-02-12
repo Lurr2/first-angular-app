@@ -8,14 +8,9 @@ import { CarsService } from 'src/app/services/cars.service';
 })
 export class CarsComponent implements OnInit {
 
-  cars: any[] = [];
-
   constructor(private carsService: CarsService) { }
 
   ngOnInit(): void {
-    this.carsService.getData().subscribe(data => {
-      this.cars = data;
-    });
   }
 
 }
