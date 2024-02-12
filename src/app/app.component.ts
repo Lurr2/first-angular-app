@@ -7,7 +7,7 @@ import { CarsService } from './services/cars.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  cars: any[] = [];
+  public cars: any[] = [];
   public someData = "ze zmiennej";
   public markiSamochodow = [
     "Toyota",

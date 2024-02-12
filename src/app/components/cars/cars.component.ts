@@ -7,9 +7,9 @@ import { CarsService } from 'src/app/services/cars.service';
   styleUrls: ['./cars.component.scss']
 })
 export class CarsComponent implements OnInit {
-  @Input() kars: string ='';
+  @Input() inputObject: any;
 
-  constructor(private carsService: CarsService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
